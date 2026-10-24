@@ -3,93 +3,210 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI Hackathon Finder</title>
+<title>Hackathon Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#0f1115; --card:#181b22; --text:#e8eaed; --muted:#9aa0a6; --accent:#6c8cff; --border:#2a2e38; }
-  @media (prefers-color-scheme: light) {
-    :root { --bg:#f5f6fa; --card:#fff; --text:#1c1e24; --muted:#5f6368; --accent:#3b5bdb; --border:#dfe1e8; }
-  }
-  * { box-sizing: border-box; }
-  body { margin:0; font-family: system-ui, sans-serif; background:var(--bg); color:var(--text); }
-  header { padding:28px 20px 8px; max-width:1100px; margin:auto; }
-  h1 { margin:0 0 4px; font-size:1.8rem; }
-  .sub { color:var(--muted); margin:0; }
-  .filters { max-width:1100px; margin:16px auto; padding:0 20px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
-  input[type=text], select { padding:10px 12px; border-radius:8px; border:1px solid var(--border); background:var(--card); color:var(--text); font-size:1rem; }
-  input[type=text] { flex:1; min-width:180px; }
-  label { color:var(--muted); display:flex; align-items:center; gap:6px; }
-  .grid { max-width:1100px; margin:auto; padding:0 20px 40px; display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); gap:16px; }
-  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:8px; }
-  .card h3 { margin:0; font-size:1.05rem; }
-  .score { align-self:flex-start; background:var(--accent); color:#fff; font-weight:700; padding:2px 10px; border-radius:20px; font-size:.85rem; }
-  .meta { color:var(--muted); font-size:.9rem; }
-  .reason { font-size:.95rem; }
-  .tags { display:flex; flex-wrap:wrap; gap:6px; }
-  .tag { border:1px solid var(--border); border-radius:20px; padding:2px 8px; font-size:.78rem; color:var(--muted); }
-  a.btn { margin-top:auto; text-align:center; background:var(--accent); color:#fff; text-decoration:none; padding:9px; border-radius:8px; font-weight:600; }
-  .empty { grid-column:1/-1; text-align:center; color:var(--muted); padding:40px; }
+:root{
+  --night:#0b0d1a; --night2:#141830; --line:#262b4d;
+  --paper:#eef0fa; --ink:#12142b; --ink2:#4a4f78;
+  --blue:#3d5afe; --coral:#ff5c7a; --sun:#ffd166; --mint:#4be3b0;
+  --display:'Bricolage Grotesque',system-ui,sans-serif;
+  --body:'Instrument Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--night);color:#e9ebff;font-family:var(--body);line-height:1.5;
+  background-image:radial-gradient(900px 420px at 80% -10%,rgba(61,90,254,.28),transparent 70%),
+                   radial-gradient(700px 380px at -10% 0%,rgba(255,92,122,.14),transparent 70%);
+  background-repeat:no-repeat}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:6px}
+
+/* hero */
+.hero{padding:56px 0 28px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.3rem,6vw,4.4rem);line-height:1;letter-spacing:-.03em;margin:0 0 16px;max-width:14ch}
+.lede{font-size:1.1rem;color:#aab0dc;max-width:52ch;margin:0 0 22px}
+.next{display:inline-flex;align-items:center;gap:10px;background:var(--night2);border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 12px;font-size:.95rem;text-decoration:none}
+.pulse{width:10px;height:10px;border-radius:50%;background:var(--coral);box-shadow:0 0 0 0 rgba(255,92,122,.7);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(255,92,122,0)}100%{box-shadow:0 0 0 0 rgba(255,92,122,0)}}
+
+/* controls */
+.bar{position:sticky;top:0;z-index:5;background:rgba(11,13,26,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);padding:14px 0}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.search{flex:1;min-width:200px;background:var(--night2);border:1px solid var(--line);color:#fff;border-radius:12px;padding:11px 14px;font:inherit}
+.search::placeholder{color:#7d84b8}
+.seg{display:flex;background:var(--night2);border:1px solid var(--line);border-radius:12px;padding:3px}
+.seg button{background:none;border:0;color:#aab0dc;font:inherit;font-weight:500;padding:8px 14px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--blue);color:#fff}
+.ctl{display:flex;align-items:center;gap:8px;color:#aab0dc;font-size:.95rem}
+.ctl input[type=checkbox]{accent-color:var(--blue);width:18px;height:18px}
+.ctl input[type=range]{accent-color:var(--blue);width:120px}
+.ctl b{color:#fff;min-width:1ch}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;background:transparent;border:1px solid var(--line);color:#c4c9ee;font:inherit;font-size:.9rem;padding:6px 14px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--paper);color:var(--ink);border-color:var(--paper);font-weight:600}
+
+/* tickets */
+.count{color:#8f96c9;margin:22px 0 14px;font-size:.95rem}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:18px;padding-bottom:60px}
+.ticket{display:grid;grid-template-columns:1fr 150px;background:var(--paper);color:var(--ink);border-radius:18px;position:relative;opacity:0;animation:rise .5s ease forwards}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.main{padding:20px 22px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.org{font-size:.85rem;color:var(--ink2);font-weight:500}
+.ticket h3{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.15;letter-spacing:-.01em;margin:0}
+.why{margin:0;font-size:.95rem;color:#2b2f55}
+.facts{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:.88rem;color:var(--ink2)}
+.facts strong{color:var(--ink);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{background:#dfe3f7;color:#2b2f55;border-radius:6px;padding:2px 8px;font-size:.78rem;font-weight:500}
+.stub{border-left:2px dashed #b9bfe6;padding:18px 14px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:10px;text-align:center;position:relative}
+.stub::before,.stub::after{content:"";position:absolute;left:-11px;width:20px;height:20px;border-radius:50%;background:var(--night)}
+.stub::before{top:-10px}.stub::after{bottom:-10px}
+.score{font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;letter-spacing:-.04em}
+.score small{font-size:1rem;font-weight:600;color:var(--ink2);letter-spacing:0}
+.fit{font-size:.78rem;color:var(--ink2);margin-top:2px}
+.left{font-size:.85rem;font-weight:600;padding:3px 10px;border-radius:999px;background:#dfe3f7}
+.left.hot{background:var(--coral);color:#fff}
+.go{display:block;width:100%;background:var(--ink);color:#fff;text-decoration:none;font-weight:600;font-size:.9rem;padding:9px 6px;border-radius:10px}
+.go:hover{background:var(--blue)}
+.s-hi .score{color:#1f8f66}.s-mid .score{color:var(--blue)}.s-lo .score{color:var(--ink2)}
+
+.empty{grid-column:1/-1;text-align:center;padding:56px 20px;color:#aab0dc;border:1px dashed var(--line);border-radius:18px}
+.empty button{margin-top:14px;background:var(--blue);color:#fff;border:0;font:inherit;font-weight:600;padding:10px 18px;border-radius:10px;cursor:pointer}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:#7d84b8;font-size:.88rem}
+
+@media(max-width:560px){
+  .list{grid-template-columns:1fr}
+  .ticket{grid-template-columns:1fr}
+  .stub{border-left:0;border-top:2px dashed #b9bfe6;flex-direction:row;flex-wrap:wrap;justify-content:space-between;text-align:left}
+  .stub::before,.stub::after{top:-11px;left:auto}
+  .stub::before{left:-10px}.stub::after{right:-10px;bottom:auto}
+  .go{width:auto;padding:9px 18px}
+}
+@media(prefers-reduced-motion:reduce){.ticket{animation:none;opacity:1}.pulse{animation:none}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header>
-  <h1>🚀 AI Hackathon Finder</h1>
-  <p class="sub" id="count">Loading…</p>
-</header>
-<div class="filters">
-  <input type="text" id="search" placeholder="Search hackathons…">
-  <select id="theme"><option value="All">All themes</option></select>
-  <label><input type="checkbox" id="online"> Online only</label>
-  <label>Min score <input type="range" id="score" min="0" max="10" value="5"> <span id="scoreVal">5</span></label>
+<div class="wrap">
+  <section class="hero">
+    <h1>Find the hackathons worth your weekend.</h1>
+    <p class="lede" id="lede">Loading open hackathons…</p>
+    <a class="next" id="next" href="#list" hidden><span class="pulse"></span><span id="nextText"></span></a>
+  </section>
 </div>
-<div class="grid" id="grid"></div>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="row">
+      <input class="search" id="search" type="search" placeholder="Search by name" aria-label="Search hackathons by name">
+      <div class="seg" role="group" aria-label="Sort order">
+        <button id="sBest" aria-pressed="true">Best match</button>
+        <button id="sSoon" aria-pressed="false">Closing soon</button>
+      </div>
+      <label class="ctl"><input type="checkbox" id="online"> Online only</label>
+      <label class="ctl">Min score <input type="range" id="score" min="0" max="10" value="5"> <b id="scoreVal">5</b></label>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by theme"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="count" id="count"></p>
+  <div class="list" id="list"></div>
+</main>
+
+<footer><div class="wrap">Updated daily. Event data from Devpost, matches scored by Groq.</div></footer>
 
 <script>
-let DATA = [];
+let DATA = [], theme = "All", sort = "score", first = true;
 const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
-function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function daysLeft(s){
+  s = (s||"").toLowerCase();
+  const n = parseFloat((s.match(/\d+(\.\d+)?/)||[1])[0]);
+  if (s.includes("hour")||s.includes("minute")) return 0;
+  if (s.includes("month")) return n*30;
+  if (s.includes("week")) return n*7;
+  if (s.includes("day")) return n;
+  return 9999;
 }
+const prizeText = p => { const d = String(p||"").replace(/\D/g,""); return (!d||+d===0) ? "Prize not listed" : p; };
+const tier = s => s>=9 ? "s-hi" : s>=7 ? "s-mid" : "s-lo";
 
-function render() {
-  const q = $("search").value.toLowerCase();
-  const theme = $("theme").value;
-  const online = $("online").checked;
-  const min = +$("score").value;
+function render(){
+  const q = $("search").value.toLowerCase().trim();
+  const online = $("online").checked, min = +$("score").value;
   $("scoreVal").textContent = min;
 
   const list = DATA.filter(e =>
-    (e.score ?? 0) >= min &&
-    (!online || e.online) &&
-    (theme === "All" || e.themes.includes(theme)) &&
+    (e.score??0) >= min && (!online || e.online) &&
+    (theme==="All" || e.themes.includes(theme)) &&
     (!q || e.title.toLowerCase().includes(q))
-  );
+  ).sort(sort==="soon"
+    ? (a,b)=>daysLeft(a.time_left)-daysLeft(b.time_left)
+    : (a,b)=>(b.score??0)-(a.score??0));
 
-  $("count").textContent = list.length + " hackathons shown";
-  $("grid").innerHTML = list.length ? list.map(e => `
-    <div class="card">
-      <span class="score">${esc(e.score ?? "-")}/10</span>
-      <h3>${esc(e.title)}</h3>
-      <div class="meta">💰 ${esc(e.prize)} · ⏳ ${esc(e.time_left)} · 📍 ${esc(e.location)}</div>
-      <div class="meta">📅 ${esc(e.deadline)} · by ${esc(e.organizer)}</div>
-      <div class="reason">${esc(e.reason)}</div>
-      <div class="tags">${e.themes.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
-      <a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">View & register</a>
-    </div>`).join("") : '<div class="empty">No hackathons match.</div>';
+  $("count").textContent = list.length + (list.length===1 ? " hackathon" : " hackathons");
+
+  $("list").innerHTML = list.length ? list.map((e,i)=>{
+    const hot = daysLeft(e.time_left) <= 7;
+    return `<article class="ticket ${tier(e.score??0)}" style="animation-delay:${first ? Math.min(i,8)*55 : 0}ms">
+      <div class="main">
+        <div class="org">${esc(e.organizer)}</div>
+        <h3>${esc(e.title)}</h3>
+        <p class="why">${esc(e.reason)}</p>
+        <div class="facts">
+          <span><strong>${esc(prizeText(e.prize))}</strong></span>
+          <span>${esc(e.location)}</span>
+          <span>${esc(e.deadline)}</span>
+        </div>
+        <div class="tags">${e.themes.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
+      </div>
+      <div class="stub">
+        <div><div class="score">${esc(e.score??"–")}<small>/10</small></div><div class="fit">match</div></div>
+        <span class="left ${hot?"hot":""}">${esc(e.time_left)}</span>
+        <a class="go" href="${esc(e.link)}" target="_blank" rel="noopener">Register</a>
+      </div>
+    </article>`;
+  }).join("") : `<div class="empty">No hackathons match these filters.<br><button id="reset">Reset filters</button></div>`;
+  first = false;
+  const r = $("reset"); if (r) r.onclick = reset;
 }
 
-fetch("data.json?t=" + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    DATA = d;
-    const themes = [...new Set(d.flatMap(e => e.themes))].sort();
-    $("theme").innerHTML = '<option value="All">All themes</option>' +
-      themes.map(t => `<option>${esc(t)}</option>`).join("");
-    render();
-  })
-  .catch(() => { $("count").textContent = "Couldn't load data.json"; });
+function reset(){
+  $("search").value=""; $("online").checked=false; $("score").value=5; theme="All"; drawChips(); render();
+}
 
-["search","theme","online","score"].forEach(id => $(id).addEventListener("input", render));
+function drawChips(){
+  const freq = {};
+  DATA.forEach(e=>e.themes.forEach(t=>freq[t]=(freq[t]||0)+1));
+  const top = Object.keys(freq).sort((a,b)=>freq[b]-freq[a]).slice(0,10);
+  $("chips").innerHTML = ["All",...top].map(t=>`<button class="chip" aria-pressed="${t===theme}" data-t="${esc(t)}">${esc(t)}</button>`).join("");
+  document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{ theme=b.dataset.t; drawChips(); render(); });
+}
+
+function setSort(v){
+  sort=v; $("sBest").setAttribute("aria-pressed", v==="score"); $("sSoon").setAttribute("aria-pressed", v==="soon"); render();
+}
+
+fetch("data.json?t="+Date.now()).then(r=>r.json()).then(d=>{
+  DATA = d;
+  $("lede").textContent = d.length + " open hackathons, ranked for AI and ML builders.";
+  const soon = [...d].sort((a,b)=>daysLeft(a.time_left)-daysLeft(b.time_left))[0];
+  if (soon){ $("nextText").textContent = "Closing next: " + soon.title + ", " + soon.time_left; $("next").hidden = false; }
+  drawChips(); render();
+}).catch(()=>{ $("lede").textContent = "Couldn't load the hackathon list. Refresh to try again."; });
+
+$("search").addEventListener("input", render);
+$("online").addEventListener("input", render);
+$("score").addEventListener("input", render);
+$("sBest").onclick = ()=>setSort("score");
+$("sSoon").onclick = ()=>setSort("soon");
 </script>
 </body>
 </html>
