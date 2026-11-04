@@ -13,10 +13,29 @@
       "Open Ended"
     ],
     "organizer": "Kiro",
-    "registrations": 7514,
+    "registrations": 8382,
+    "invite_only": false,
+    "score": 10,
+    "reason": "Beginner-friendly + $100k"
+  },
+  {
+    "title": "PayPal AI Hackathon",
+    "link": "https://paypalaihackathon.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 01 - Nov 12, 2026",
+    "time_left": "8 days left",
+    "prize": "$67,500",
+    "themes": [
+      "Low/No Code",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "organizer": "PayPal",
+    "registrations": 28243,
     "invite_only": false,
     "score": 9,
-    "reason": "Beginner-friendly, huge prize, open-ended"
+    "reason": "Low/no code + $67k prize"
   },
   {
     "title": "EthnoHack",
@@ -24,7 +43,7 @@
     "location": "Online",
     "online": true,
     "deadline": "Nov 02 - 08, 2026",
-    "time_left": "5 days left",
+    "time_left": "4 days left",
     "prize": "\u20ac8,000",
     "themes": [
       "Databases",
@@ -32,48 +51,29 @@
       "Machine Learning/AI"
     ],
     "organizer": "ETHCSTWIN",
-    "registrations": 256,
+    "registrations": 287,
     "invite_only": false,
     "score": 9,
-    "reason": "AI + health, huge prize"
+    "reason": "ML/AI + big prize, short deadline"
   },
   {
-    "title": "HackWithAditya",
-    "link": "https://hackwithaditya.devpost.com/",
+    "title": "AI Agents for Founders Challenge \u2014 HETIC 2026",
+    "link": "https://ai-agents-founders-hetic-26.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 16 - Nov 25, 2026",
-    "time_left": "22 days left",
-    "prize": "\u20b9 500,000",
+    "deadline": "Nov 04 - Dec 18, 2026",
+    "time_left": "about 1 month left",
+    "prize": "\u20ac997",
     "themes": [
-      "Education",
-      "Health",
-      "Machine Learning/AI"
-    ],
-    "organizer": "Aditya University",
-    "registrations": 135,
-    "invite_only": false,
-    "score": 9,
-    "reason": "AI + health, huge prize"
-  },
-  {
-    "title": "IceHacks",
-    "link": "https://icehacks.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 08 - 15, 2026",
-    "time_left": "Upcoming",
-    "prize": "$17,150",
-    "themes": [
-      "Beginner Friendly",
       "Low/No Code",
-      "Open Ended"
+      "Machine Learning/AI",
+      "Productivity"
     ],
-    "organizer": "CodeStarters",
-    "registrations": 247,
+    "organizer": "HETIC",
+    "registrations": 172,
     "invite_only": false,
     "score": 9,
-    "reason": "Fully beginner-friendly, low/no code, high prize, perfect fit for student profile."
+    "reason": "AI agents, beginner-friendly, high prize"
   },
   {
     "title": "Arbiter Hacks V1",
@@ -89,274 +89,10 @@
       "Open Ended"
     ],
     "organizer": "Arbiter ",
-    "registrations": 826,
+    "registrations": 860,
     "invite_only": false,
     "score": 8,
-    "reason": "Beginner-friendly, decent prize, open-ended"
-  },
-  {
-    "title": "Build Your First AI App",
-    "link": "https://build-your-first-ai-app.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 27 - Nov 27, 2026",
-    "time_left": "25 days left",
-    "prize": "$0",
-    "themes": [
-      "Education",
-      "Machine Learning/AI",
-      "Web"
-    ],
-    "organizer": "Yasir Insights",
-    "registrations": 264,
-    "invite_only": false,
-    "score": 8,
-    "reason": "First AI app, beginner friendly, free prize"
-  },
-  {
-    "title": "Agentic Hackathon",
-    "link": "https://agentic-hackathon.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 01 - 10, 2026",
-    "time_left": "7 days left",
-    "prize": "$480",
-    "themes": [
-      "Machine Learning/AI",
-      "Open Ended",
-      "Web"
-    ],
-    "organizer": "Devin",
-    "registrations": 164,
-    "invite_only": false,
-    "score": 8,
-    "reason": "AI web, decent prize"
-  },
-  {
-    "title": "Neural Storm",
-    "link": "https://neuralstorm.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 02 - 04, 2026",
-    "time_left": "1 day left",
-    "prize": "\u20b9 20,000",
-    "themes": [
-      "Beginner Friendly",
-      "Machine Learning/AI"
-    ],
-    "organizer": "JNTUH",
-    "registrations": 148,
-    "invite_only": false,
-    "score": 8,
-    "reason": "Beginner AI, good prize"
-  },
-  {
-    "title": "PayPal AI Hackathon",
-    "link": "https://paypalaihackathon.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 01 - Nov 12, 2026",
-    "time_left": "9 days left",
-    "prize": "$67,500",
-    "themes": [
-      "Low/No Code",
-      "Machine Learning/AI",
-      "Web"
-    ],
-    "organizer": "PayPal",
-    "registrations": 27598,
-    "invite_only": false,
-    "score": 7,
-    "reason": "High prize, ML focus but not beginner-friendly"
-  },
-  {
-    "title": "DSH Hacks V2 ($100k+ in prizes!)",
-    "link": "https://dsh-hacks-v2.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Jun 24 - Nov 15, 2026",
-    "time_left": "12 days left",
-    "prize": "$0",
-    "themes": [
-      "Beginner Friendly",
-      "Low/No Code",
-      "Open Ended"
-    ],
-    "organizer": "STEMise",
-    "registrations": 950,
-    "invite_only": false,
-    "score": 7,
-    "reason": "Beginner-friendly, big prize, no cash"
-  },
-  {
-    "title": "LaunchPad Hacks",
-    "link": "https://launchpad-hacks.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 16 - Nov 20, 2026",
-    "time_left": "18 days left",
-    "prize": "$300",
-    "themes": [
-      "Beginner Friendly",
-      "Open Ended"
-    ],
-    "organizer": "Hack4TodayOrg",
-    "registrations": 381,
-    "invite_only": false,
-    "score": 7,
-    "reason": "Beginner-friendly, small cash prize"
-  },
-  {
-    "title": "STEM2Connect AI Hackathon",
-    "link": "https://stem2connect-online-hackathon.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 17 - Nov 21, 2026",
-    "time_left": "19 days left",
-    "prize": "$0",
-    "themes": [
-      "Beginner Friendly",
-      "Education",
-      "Web"
-    ],
-    "organizer": "STEM2Connect",
-    "registrations": 302,
-    "invite_only": false,
-    "score": 7,
-    "reason": "AI focus, beginner friendly, free prize"
-  },
-  {
-    "title": "STEMergent Hacks 2026",
-    "link": "https://stemergent-hacks.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 31 - Nov 15, 2026",
-    "time_left": "13 days left",
-    "prize": "$0",
-    "themes": [
-      "Low/No Code",
-      "Machine Learning/AI",
-      "Social Good"
-    ],
-    "organizer": "STEMergent",
-    "registrations": 220,
-    "invite_only": false,
-    "score": 7,
-    "reason": "Low/no code AI, beginner friendly, free prize"
-  },
-  {
-    "title": "GenHacks",
-    "link": "https://genhacks-open.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 01 - Dec 26, 2026",
-    "time_left": "about 2 months left",
-    "prize": "$CAD 1,050",
-    "themes": [
-      "Beginner Friendly",
-      "IoT",
-      "Machine Learning/AI"
-    ],
-    "organizer": "Shail & Sharaf",
-    "registrations": 74,
-    "invite_only": false,
-    "score": 7,
-    "reason": "AI/ML focus, beginner-friendly, decent prize"
-  },
-  {
-    "title": "FSB AI Build-a-thon Event 02",
-    "link": "https://fsb-ai-buildathon-02.devpost.com/",
-    "location": "Farmer School of Business",
-    "online": false,
-    "deadline": "Nov 01 - 03, 2026",
-    "time_left": "about 19 hours left",
-    "prize": "$500",
-    "themes": [
-      "Beginner Friendly",
-      "Low/No Code",
-      "Open Ended"
-    ],
-    "organizer": "Farmer School of Business, Miami Univers",
-    "registrations": 10,
-    "invite_only": false,
-    "score": 7,
-    "reason": "AI build, beginner-friendly, $500 prize"
-  },
-  {
-    "title": "DeveloperWeek 2027 Hackathon",
-    "link": "https://developerweek-2027-hackathon.devpost.com/",
-    "location": "Santa Clara Convention Center + Online",
-    "online": false,
-    "deadline": "Jan 25 - Feb 11, 2027",
-    "time_left": "Upcoming",
-    "prize": "$6,000",
-    "themes": [
-      "Enterprise",
-      "IoT",
-      "Machine Learning/AI"
-    ],
-    "organizer": "DevNetwork",
-    "registrations": 284,
-    "invite_only": false,
-    "score": 7,
-    "reason": "Relevant ML/AI focus with decent prize, but enterprise nature may be less beginner-friendly."
-  },
-  {
-    "title": "Meta VR Start Developer Competition 2026",
-    "link": "https://start-developer-competition-26.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Sep 24 - Nov 18, 2026",
-    "time_left": "15 days left",
-    "prize": "$1,000,000",
-    "themes": [
-      "AR/VR",
-      "Machine Learning/AI",
-      "Web"
-    ],
-    "organizer": "Meta",
-    "registrations": 4967,
-    "invite_only": false,
-    "score": 6,
-    "reason": "Large prize, AR/VR focus, advanced"
-  },
-  {
-    "title": "Codegeist 2026: Build with context. Ship with confidence.",
-    "link": "https://codegeist2026.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 27 - Dec 22, 2026",
-    "time_left": "about 2 months left",
-    "prize": "$120,000",
-    "themes": [
-      "Machine Learning/AI",
-      "Enterprise",
-      "Productivity"
-    ],
-    "organizer": "Atlassian",
-    "registrations": 1419,
-    "invite_only": false,
-    "score": 6,
-    "reason": "Enterprise focus, no beginner emphasis"
-  },
-  {
-    "title": "Next Byte Hacks V5",
-    "link": "https://next-byte-hacks-v5.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 06 - Nov 07, 2026",
-    "time_left": "5 days left",
-    "prize": "$100",
-    "themes": [
-      "Beginner Friendly",
-      "Low/No Code",
-      "Open Ended"
-    ],
-    "organizer": "Next Byte Hacks",
-    "registrations": 595,
-    "invite_only": false,
-    "score": 6,
-    "reason": "Beginner-friendly, low cash prize"
+    "reason": "Beginner-friendly + $7.8k"
   },
   {
     "title": "AWS MSP AI Hackathon",
@@ -372,85 +108,85 @@
       "Web"
     ],
     "organizer": "AWS",
-    "registrations": 43,
+    "registrations": 89,
     "invite_only": false,
-    "score": 6,
-    "reason": "AWS brand, good prize, not beginner"
+    "score": 8,
+    "reason": "AWS, $64k prize"
   },
   {
-    "title": "Ostad Presents YUNet AIgnite Buildathon 2026",
-    "link": "https://yunet-aignite26.devpost.com/",
+    "title": "Build Your First AI App",
+    "link": "https://build-your-first-ai-app.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Nov 01 - 05, 2026",
-    "time_left": "2 days left",
+    "deadline": "Oct 27 - Nov 27, 2026",
+    "time_left": "24 days left",
     "prize": "$0",
     "themes": [
       "Education",
-      "Low/No Code",
-      "Machine Learning/AI"
+      "Machine Learning/AI",
+      "Web"
     ],
-    "organizer": "Youth Upskill Network - YUNet",
-    "registrations": 403,
+    "organizer": "Yasir Insights",
+    "registrations": 281,
     "invite_only": false,
-    "score": 6,
-    "reason": "Education, low/no code, no prize"
+    "score": 8,
+    "reason": "AI app, beginner friendly, free"
   },
   {
-    "title": "Dakar Bitcoin Hack by BTrust",
-    "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
+    "title": "Neural Storm",
+    "link": "https://neuralstorm.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 26 - Nov 20, 2026",
-    "time_left": "17 days left",
-    "prize": "$900",
-    "themes": [
-      "Blockchain",
-      "Fintech",
-      "Machine Learning/AI"
-    ],
-    "organizer": "Dakar Bitcoin Days",
-    "registrations": 145,
-    "invite_only": false,
-    "score": 6,
-    "reason": "Blockchain + AI, moderate prize"
-  },
-  {
-    "title": "ML Empowerment Build Challenge 4.0",
-    "link": "https://ml-build-challenge-4.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 01 - Dec 02, 2026",
-    "time_left": "29 days left",
-    "prize": "$0",
+    "deadline": "Nov 02 - 04, 2026",
+    "time_left": "about 6 hours left",
+    "prize": "\u20b9 20,000",
     "themes": [
       "Beginner Friendly",
-      "Machine Learning/AI",
-      "Social Good"
-    ],
-    "organizer": "ML Empowerment Foundation",
-    "registrations": 42,
-    "invite_only": false,
-    "score": 6,
-    "reason": "ML focus, beginner-friendly, no prize but good"
-  },
-  {
-    "title": "Redhawk Builds 2026",
-    "link": "https://redhawk-builds-2026.devpost.com/",
-    "location": "McVey Data Science Building",
-    "online": false,
-    "deadline": "Nov 01 - 08, 2026",
-    "time_left": "5 days left",
-    "prize": "$3,500",
-    "themes": [
-      "Fintech",
       "Machine Learning/AI"
     ],
-    "organizer": "Miami",
-    "registrations": 7,
+    "organizer": "JNTUH",
+    "registrations": 189,
     "invite_only": false,
-    "score": 6,
-    "reason": "ML/AI focus, high prize, not explicitly beginner"
+    "score": 8,
+    "reason": "ML/AI, good prize, very short"
+  },
+  {
+    "title": "Agentic Hackathon",
+    "link": "https://agentic-hackathon.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 01 - 10, 2026",
+    "time_left": "6 days left",
+    "prize": "$480",
+    "themes": [
+      "Machine Learning/AI",
+      "Open Ended",
+      "Web"
+    ],
+    "organizer": "Devin",
+    "registrations": 180,
+    "invite_only": false,
+    "score": 8,
+    "reason": "ML/AI, decent prize, short"
+  },
+  {
+    "title": "GenHacks",
+    "link": "https://genhacks-open.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 01 - Dec 26, 2026",
+    "time_left": "about 2 months left",
+    "prize": "$CAD 1,050",
+    "themes": [
+      "Beginner Friendly",
+      "IoT",
+      "Machine Learning/AI"
+    ],
+    "organizer": "Shail & Sharaf",
+    "registrations": 107,
+    "invite_only": false,
+    "score": 8,
+    "reason": "AI, beginner-friendly, good prize"
   },
   {
     "title": "#BuildHybridAI 2026",
@@ -459,15 +195,36 @@
     "online": true,
     "deadline": "Nov 09 - 30, 2026",
     "time_left": "Upcoming",
-    "prize": "$10,000",
+    "prize": "$30,000",
     "themes": [
-      "Machine Learning/AI"
+      "Machine Learning/AI",
+      "Mobile",
+      "Web"
     ],
     "organizer": "Google",
-    "registrations": 375,
+    "registrations": 509,
     "invite_only": false,
-    "score": 6,
-    "reason": "AI focus, high prize, no beginner tag"
+    "score": 8,
+    "reason": "AI, high prize, not beginner"
+  },
+  {
+    "title": "Meta VR Start Developer Competition 2026",
+    "link": "https://start-developer-competition-26.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Sep 24 - Nov 18, 2026",
+    "time_left": "14 days left",
+    "prize": "$1,000,000",
+    "themes": [
+      "AR/VR",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "organizer": "Meta",
+    "registrations": 5067,
+    "invite_only": false,
+    "score": 7,
+    "reason": "VR focus, moderate beginner"
   },
   {
     "title": "UGREEN Hackathon 2026 on AI NAS",
@@ -475,7 +232,7 @@
     "location": "Online",
     "online": true,
     "deadline": "Oct 22 - Nov 16, 2026",
-    "time_left": "13 days left",
+    "time_left": "12 days left",
     "prize": "$46,000",
     "themes": [
       "Lifehacks",
@@ -483,10 +240,10 @@
       "Productivity"
     ],
     "organizer": "UGREEN",
-    "registrations": 1150,
+    "registrations": 1233,
     "invite_only": false,
-    "score": 5,
-    "reason": "Productivity focus, moderate prize, not beginner"
+    "score": 7,
+    "reason": "Productivity + $46k"
   },
   {
     "title": "QNX Global Hackathon",
@@ -502,86 +259,86 @@
       "Open Ended"
     ],
     "organizer": "QNX",
-    "registrations": 175,
+    "registrations": 336,
     "invite_only": false,
-    "score": 5,
-    "reason": "IoT focus, moderate prize, not beginner"
+    "score": 7,
+    "reason": "IoT + AI, $50k"
   },
   {
-    "title": "Code for Humanity",
-    "link": "https://code-for-humanity.devpost.com/",
+    "title": "STEM2Connect AI Hackathon",
+    "link": "https://stem2connect-online-hackathon.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Jul 16, 2026 - Jan 15, 2027",
-    "time_left": "2 months left",
+    "deadline": "Oct 17 - Nov 21, 2026",
+    "time_left": "18 days left",
     "prize": "$0",
     "themes": [
+      "Beginner Friendly",
       "Education",
-      "Machine Learning/AI",
       "Web"
     ],
-    "organizer": "nill",
-    "registrations": 769,
+    "organizer": "STEM2Connect",
+    "registrations": 315,
     "invite_only": false,
-    "score": 5,
-    "reason": "Education focus, no prize"
+    "score": 7,
+    "reason": "AI focus, beginner friendly, free entry"
   },
   {
-    "title": "SafeSpace Hacks",
-    "link": "https://safespace-hacks.devpost.com/",
+    "title": "STEMergent Hacks 2026",
+    "link": "https://stemergent-hacks.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 17 - Nov 22, 2026",
-    "time_left": "20 days left",
-    "prize": "$280",
-    "themes": [
-      "Beginner Friendly",
-      "Cybersecurity",
-      "Social Good"
-    ],
-    "organizer": "SafeSpace",
-    "registrations": 276,
-    "invite_only": false,
-    "score": 5,
-    "reason": "Cybersecurity + AI, beginner friendly, modest prize"
-  },
-  {
-    "title": "Mathematics for systems security",
-    "link": "https://mathematics-systems-security.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 16 - Nov 15, 2026",
+    "deadline": "Oct 31 - Nov 15, 2026",
     "time_left": "12 days left",
     "prize": "$0",
     "themes": [
-      "Communication",
-      "Cybersecurity",
-      "Machine Learning/AI"
+      "Low/No Code",
+      "Machine Learning/AI",
+      "Social Good"
     ],
-    "organizer": "Software Engineering Club (DEV)",
-    "registrations": 155,
+    "organizer": "STEMergent",
+    "registrations": 232,
     "invite_only": false,
-    "score": 5,
-    "reason": "AI + cybersecurity, free prize"
+    "score": 7,
+    "reason": "Low/no-code AI, beginner friendly, free"
   },
   {
-    "title": "DATANOVA 2026 GLOBAL DATA-THON",
-    "link": "https://datanova-2026-global-data-thon.devpost.com/",
+    "title": "HackWithAditya",
+    "link": "https://hackwithaditya.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 26 - Nov 10, 2026",
-    "time_left": "8 days left",
-    "prize": "$1,750",
+    "deadline": "Oct 16 - Nov 25, 2026",
+    "time_left": "22 days left",
+    "prize": "\u20b9 500,000",
     "themes": [
-      "E-commerce/Retail",
-      "Fintech",
-      "Health"
+      "Education",
+      "Health",
+      "Machine Learning/AI"
     ],
-    "organizer": "DataNova",
-    "registrations": 73,
+    "organizer": "Aditya University",
+    "registrations": 136,
     "invite_only": false,
-    "score": 5,
-    "reason": "Data-athon, no AI mention, moderate prize"
+    "score": 7,
+    "reason": "ML included, decent prize, no beginner tag"
+  },
+  {
+    "title": "ML Empowerment Build Challenge 4.0",
+    "link": "https://ml-build-challenge-4.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 01 - Dec 02, 2026",
+    "time_left": "28 days left",
+    "prize": "$0",
+    "themes": [
+      "Beginner Friendly",
+      "Machine Learning/AI",
+      "Social Good"
+    ],
+    "organizer": "ML Empowerment Foundation",
+    "registrations": 61,
+    "invite_only": false,
+    "score": 7,
+    "reason": "AI, beginner-friendly, no prize"
   },
   {
     "title": "Remote Control AI",
@@ -589,92 +346,16 @@
     "location": "Online",
     "online": true,
     "deadline": "Oct 31 - Nov 05, 2026",
-    "time_left": "3 days left",
+    "time_left": "1 day left",
     "prize": "$0",
     "themes": [
       "Beginner Friendly"
     ],
     "organizer": "avacado",
-    "registrations": 51,
+    "registrations": 59,
     "invite_only": false,
-    "score": 5,
-    "reason": "AI theme, beginner-friendly, no prize"
-  },
-  {
-    "title": "Learn AR with SPECS",
-    "link": "https://learn-specs.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 15 - Nov 09, 2026",
-    "time_left": "7 days left",
-    "prize": "$2,500",
-    "themes": [
-      "AR/VR",
-      "Machine Learning/AI",
-      "Design"
-    ],
-    "organizer": "Devpost",
-    "registrations": 1088,
-    "invite_only": false,
-    "score": 4,
-    "reason": "Small prize, AR/VR, unclear beginner"
-  },
-  {
-    "title": "Syntax Summit",
-    "link": "https://syntax-summit.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Jul 18, 2026 - Jan 14, 2027",
-    "time_left": "2 months left",
-    "prize": "$0",
-    "themes": [
-      "DevOps",
-      "Machine Learning/AI",
-      "Robotic Process Automation"
-    ],
-    "organizer": "Student Organization",
-    "registrations": 407,
-    "invite_only": false,
-    "score": 4,
-    "reason": "No prize, RPA focus"
-  },
-  {
-    "title": "InnovArt 2027: Art and Technology Hack Day",
-    "link": "https://innovart2027.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Aug 23, 2026 - Jan 02, 2027",
-    "time_left": "2 months left",
-    "prize": "$0",
-    "themes": [
-      "Music/Art",
-      "Beginner Friendly",
-      "Open Ended"
-    ],
-    "organizer": "Binnovative",
-    "registrations": 297,
-    "invite_only": false,
-    "score": 4,
-    "reason": "Art/tech, no AI focus, free prize"
-  },
-  {
-    "title": "AccessED Hacks",
-    "link": "https://accessed-hacks.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 17 - Nov 20, 2026",
-    "time_left": "18 days left",
-    "prize": "$225",
-    "themes": [
-      "Beginner Friendly",
-      "Education",
-      "Social Good"
-    ],
-    "organizer": "AccessEDnpo",
-    "registrations": 173,
-    "invite_only": false,
-    "score": 4,
-    "reason": "Education + social good, no AI"
+    "score": 7,
+    "reason": "AI implied, beginner-friendly, no prize"
   },
   {
     "title": "Cosmo Hacks 2026",
@@ -690,10 +371,104 @@
       "Education"
     ],
     "organizer": "Cosmo Hacks",
-    "registrations": 687,
+    "registrations": 721,
     "invite_only": false,
-    "score": 4,
-    "reason": "Beginner-friendly, huge prize, no AI"
+    "score": 7,
+    "reason": "big prize, beginner-friendly, no AI focus"
+  },
+  {
+    "title": "DeveloperWeek 2027 Hackathon",
+    "link": "https://developerweek-2027-hackathon.devpost.com/",
+    "location": "Santa Clara Convention Center + Online",
+    "online": false,
+    "deadline": "Jan 25 - Feb 11, 2027",
+    "time_left": "Upcoming",
+    "prize": "$6,000",
+    "themes": [
+      "Enterprise",
+      "IoT",
+      "Machine Learning/AI"
+    ],
+    "organizer": "DevNetwork",
+    "registrations": 286,
+    "invite_only": false,
+    "score": 7,
+    "reason": "AI focus, but enterprise and lower prize"
+  },
+  {
+    "title": "Codegeist 2026: Build with context. Ship with confidence.",
+    "link": "https://codegeist2026.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 27 - Dec 22, 2026",
+    "time_left": "about 2 months left",
+    "prize": "$120,000",
+    "themes": [
+      "Machine Learning/AI",
+      "Enterprise",
+      "Productivity"
+    ],
+    "organizer": "Atlassian",
+    "registrations": 1566,
+    "invite_only": false,
+    "score": 6,
+    "reason": "Enterprise focus, less beginner"
+  },
+  {
+    "title": "Next Byte Hacks V5",
+    "link": "https://next-byte-hacks-v5.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 06 - Nov 07, 2026",
+    "time_left": "4 days left",
+    "prize": "$100",
+    "themes": [
+      "Beginner Friendly",
+      "Low/No Code",
+      "Open Ended"
+    ],
+    "organizer": "Next Byte Hacks",
+    "registrations": 611,
+    "invite_only": false,
+    "score": 6,
+    "reason": "Low/no code, $100 prize"
+  },
+  {
+    "title": "Dakar Bitcoin Hack by BTrust",
+    "link": "https://dakar-bitcoin-hack-2026.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 26 - Nov 20, 2026",
+    "time_left": "17 days left",
+    "prize": "$900",
+    "themes": [
+      "Blockchain",
+      "Fintech",
+      "Machine Learning/AI"
+    ],
+    "organizer": "Dakar Bitcoin Days",
+    "registrations": 158,
+    "invite_only": false,
+    "score": 6,
+    "reason": "AI + blockchain, moderate prize"
+  },
+  {
+    "title": "Redhawk Builds 2026",
+    "link": "https://redhawk-builds-2026.devpost.com/",
+    "location": "McVey Data Science Building",
+    "online": false,
+    "deadline": "Nov 01 - 08, 2026",
+    "time_left": "5 days left",
+    "prize": "$3,500",
+    "themes": [
+      "Fintech",
+      "Machine Learning/AI"
+    ],
+    "organizer": "Miami",
+    "registrations": 10,
+    "invite_only": false,
+    "score": 6,
+    "reason": "AI, decent prize, not beginner"
   },
   {
     "title": "United Hacks V8",
@@ -709,66 +484,199 @@
       "Education"
     ],
     "organizer": "Hack United",
-    "registrations": 354,
+    "registrations": 359,
     "invite_only": false,
-    "score": 4,
-    "reason": "Beginner-friendly, huge prize, no AI"
+    "score": 6,
+    "reason": "beginner-friendly, moderate prize, no AI"
   },
   {
-    "title": "Herhack",
-    "link": "https://herhack.devpost.com/",
+    "title": "IceHacks",
+    "link": "https://icehacks.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 17 - Nov 10, 2026",
-    "time_left": "8 days left",
-    "prize": "\u20b9 200,000",
+    "deadline": "Nov 08 - 15, 2026",
+    "time_left": "Upcoming",
+    "prize": "$17,150",
     "themes": [
       "Beginner Friendly",
-      "Blockchain",
+      "Low/No Code",
       "Open Ended"
     ],
-    "organizer": "Echelon institute of technology",
-    "registrations": 173,
+    "organizer": "CodeStarters",
+    "registrations": 259,
     "invite_only": false,
-    "score": 3,
-    "reason": "Blockchain focus, no AI"
+    "score": 6,
+    "reason": "beginner-friendly, high prize, no AI"
   },
   {
-    "title": "Green Shift Hacks",
-    "link": "https://green-shift-hacks.devpost.com/",
+    "title": "Learn AR with SPECS",
+    "link": "https://learn-specs.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Oct 18 - Nov 17, 2026",
-    "time_left": "15 days left",
-    "prize": "$125",
+    "deadline": "Oct 15 - Nov 09, 2026",
+    "time_left": "6 days left",
+    "prize": "$2,500",
     "themes": [
+      "AR/VR",
+      "Machine Learning/AI",
+      "Design"
+    ],
+    "organizer": "Devpost",
+    "registrations": 1113,
+    "invite_only": false,
+    "score": 5,
+    "reason": "Small prize, AR/VR design"
+  },
+  {
+    "title": "DSH Hacks V2 ($100k+ in prizes!)",
+    "link": "https://dsh-hacks-v2.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Jun 24 - Nov 15, 2026",
+    "time_left": "11 days left",
+    "prize": "$0",
+    "themes": [
+      "Beginner Friendly",
+      "Low/No Code",
+      "Open Ended"
+    ],
+    "organizer": "STEMise",
+    "registrations": 984,
+    "invite_only": false,
+    "score": 5,
+    "reason": "Beginner-friendly but no prize"
+  },
+  {
+    "title": "LaunchPad Hacks",
+    "link": "https://launchpad-hacks.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 16 - Nov 20, 2026",
+    "time_left": "17 days left",
+    "prize": "$300",
+    "themes": [
+      "Beginner Friendly",
+      "Open Ended"
+    ],
+    "organizer": "Hack4TodayOrg",
+    "registrations": 400,
+    "invite_only": false,
+    "score": 5,
+    "reason": "No AI focus, small prize"
+  },
+  {
+    "title": "Mathematics for systems security",
+    "link": "https://mathematics-systems-security.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 16 - Nov 15, 2026",
+    "time_left": "12 days left",
+    "prize": "$0",
+    "themes": [
+      "Communication",
+      "Cybersecurity",
+      "Machine Learning/AI"
+    ],
+    "organizer": "Software Engineering Club (DEV)",
+    "registrations": 168,
+    "invite_only": false,
+    "score": 5,
+    "reason": "AI present but advanced, no prize"
+  },
+  {
+    "title": "HackOut! 2027",
+    "link": "https://hackout-branchout.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 03, 2026 - Feb 01, 2027",
+    "time_left": "3 months left",
+    "prize": "$3,000",
+    "themes": [
+      "Quantum",
       "Beginner Friendly",
       "Social Good"
     ],
-    "organizer": "HackathonForEveryone",
-    "registrations": 139,
+    "organizer": "BranchOut!",
+    "registrations": 4,
     "invite_only": false,
-    "score": 3,
-    "reason": "No AI, low prize"
+    "score": 5,
+    "reason": "Beginner, no AI, no prize"
   },
   {
-    "title": "2026 UXC NYU Fall Design-a-thon ",
-    "link": "https://uxc-fall-2026-design-a-thon.devpost.com/",
+    "title": "HackTitan",
+    "link": "https://hacktitan.devpost.com/",
     "location": "Online",
     "online": true,
-    "deadline": "Nov 02 - 07, 2026",
-    "time_left": "4 days left",
-    "prize": "$1,000",
+    "deadline": "Feb 02 - 04, 2027",
+    "time_left": "Upcoming",
+    "prize": "$10,000",
     "themes": [
       "Beginner Friendly",
-      "Design",
-      "Education"
+      "Databases",
+      "DevOps"
     ],
-    "organizer": "New York University",
-    "registrations": 109,
+    "organizer": "IWU",
+    "registrations": 213,
     "invite_only": false,
-    "score": 3,
-    "reason": "Design-focused, no AI/ML"
+    "score": 5,
+    "reason": "beginner-friendly, lower prize, no AI"
+  },
+  {
+    "title": "Code for Humanity",
+    "link": "https://code-for-humanity.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Jul 16, 2026 - Jan 15, 2027",
+    "time_left": "2 months left",
+    "prize": "$0",
+    "themes": [
+      "Education",
+      "Machine Learning/AI",
+      "Web"
+    ],
+    "organizer": "nill",
+    "registrations": 787,
+    "invite_only": false,
+    "score": 4,
+    "reason": "No prize, education focus"
+  },
+  {
+    "title": "Ostad Presents YUNet AIgnite Buildathon 2026",
+    "link": "https://yunet-aignite26.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 01 - 05, 2026",
+    "time_left": "1 day left",
+    "prize": "$0",
+    "themes": [
+      "Education",
+      "Low/No Code",
+      "Machine Learning/AI"
+    ],
+    "organizer": "Youth Upskill Network - YUNet",
+    "registrations": 408,
+    "invite_only": false,
+    "score": 4,
+    "reason": "Education, no prize"
+  },
+  {
+    "title": "SafeSpace Hacks",
+    "link": "https://safespace-hacks.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 17 - Nov 22, 2026",
+    "time_left": "19 days left",
+    "prize": "$280",
+    "themes": [
+      "Beginner Friendly",
+      "Cybersecurity",
+      "Social Good"
+    ],
+    "organizer": "SafeSpace",
+    "registrations": 287,
+    "invite_only": false,
+    "score": 4,
+    "reason": "Cybersecurity, no AI"
   },
   {
     "title": "CSC Winter Sparkathon",
@@ -784,10 +692,29 @@
       "Social Good"
     ],
     "organizer": "The Webb Schools CSC",
-    "registrations": 97,
+    "registrations": 103,
     "invite_only": false,
-    "score": 3,
-    "reason": "No AI/ML theme"
+    "score": 4,
+    "reason": "Beginner, no AI, low prize"
+  },
+  {
+    "title": "DATANOVA 2026 GLOBAL DATA-THON",
+    "link": "https://datanova-2026-global-data-thon.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 26 - Nov 10, 2026",
+    "time_left": "7 days left",
+    "prize": "$1,750",
+    "themes": [
+      "E-commerce/Retail",
+      "Fintech",
+      "Health"
+    ],
+    "organizer": "DataNova",
+    "registrations": 88,
+    "invite_only": false,
+    "score": 4,
+    "reason": "No AI, modest prize"
   },
   {
     "title": "Code For DFW",
@@ -795,7 +722,7 @@
     "location": "Online",
     "online": true,
     "deadline": "Oct 20 - Nov 25, 2026",
-    "time_left": "23 days left",
+    "time_left": "22 days left",
     "prize": "$0",
     "themes": [
       "Open Ended",
@@ -805,8 +732,178 @@
     "organizer": "n/a",
     "registrations": 25,
     "invite_only": false,
+    "score": 4,
+    "reason": "Beginner, no AI, no prize"
+  },
+  {
+    "title": "Syntax Summit",
+    "link": "https://syntax-summit.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Jul 18, 2026 - Jan 14, 2027",
+    "time_left": "2 months left",
+    "prize": "$0",
+    "themes": [
+      "DevOps",
+      "Machine Learning/AI",
+      "Robotic Process Automation"
+    ],
+    "organizer": "Student Organization",
+    "registrations": 411,
+    "invite_only": false,
     "score": 3,
-    "reason": "No AI/ML theme"
+    "reason": "No prize"
+  },
+  {
+    "title": "InnovArt 2027: Art and Technology Hack Day",
+    "link": "https://innovart2027.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Aug 23, 2026 - Jan 02, 2027",
+    "time_left": "about 2 months left",
+    "prize": "$0",
+    "themes": [
+      "Music/Art",
+      "Beginner Friendly",
+      "Open Ended"
+    ],
+    "organizer": "Binnovative",
+    "registrations": 303,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Art/tech, not AI/ML"
+  },
+  {
+    "title": "Herhack",
+    "link": "https://herhack.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 17 - Nov 10, 2026",
+    "time_left": "7 days left",
+    "prize": "\u20b9 200,000",
+    "themes": [
+      "Beginner Friendly",
+      "Blockchain",
+      "Open Ended"
+    ],
+    "organizer": "Echelon institute of technology",
+    "registrations": 190,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Blockchain focus, not AI"
+  },
+  {
+    "title": "AccessED Hacks",
+    "link": "https://accessed-hacks.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 17 - Nov 20, 2026",
+    "time_left": "17 days left",
+    "prize": "$225",
+    "themes": [
+      "Beginner Friendly",
+      "Education",
+      "Social Good"
+    ],
+    "organizer": "AccessEDnpo",
+    "registrations": 178,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Education, no AI focus"
+  },
+  {
+    "title": "Green Shift Hacks",
+    "link": "https://green-shift-hacks.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 18 - Nov 17, 2026",
+    "time_left": "14 days left",
+    "prize": "$125",
+    "themes": [
+      "Beginner Friendly",
+      "Social Good"
+    ],
+    "organizer": "HackathonForEveryone",
+    "registrations": 150,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Social good, no AI focus"
+  },
+  {
+    "title": "2026 UXC NYU Fall Design-a-thon ",
+    "link": "https://uxc-fall-2026-design-a-thon.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 02 - 07, 2026",
+    "time_left": "3 days left",
+    "prize": "$1,000",
+    "themes": [
+      "Beginner Friendly",
+      "Design",
+      "Education"
+    ],
+    "organizer": "New York University",
+    "registrations": 127,
+    "invite_only": false,
+    "score": 3,
+    "reason": "No AI, just design"
+  },
+  {
+    "title": "Girls Who Code HHS Hackathon 2026",
+    "link": "https://gwchhs-hackathon-2026.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Oct 15 - Nov 05, 2026",
+    "time_left": "1 day left",
+    "prize": "$50",
+    "themes": [
+      "Beginner Friendly",
+      "Gaming",
+      "Social Good"
+    ],
+    "organizer": "Girls Who Code HHS",
+    "registrations": 97,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Beginner, no AI, small prize"
+  },
+  {
+    "title": "305 Veterans Hackathon Edition November 2026 \u2014 305Hackathons.vercel.app",
+    "link": "https://305veteransnov2026.devpost.com/",
+    "location": "Online",
+    "online": true,
+    "deadline": "Nov 01 - 30, 2026",
+    "time_left": "27 days left",
+    "prize": "$0",
+    "themes": [
+      "Beginner Friendly",
+      "Cybersecurity",
+      "Education"
+    ],
+    "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
+    "registrations": 21,
+    "invite_only": false,
+    "score": 3,
+    "reason": "Beginner, no AI, no prize"
+  },
+  {
+    "title": "Mini VikingHacks",
+    "link": "https://mini-vikinghacks.devpost.com/",
+    "location": "Irvington High School",
+    "online": false,
+    "deadline": "Nov 03 - 05, 2026",
+    "time_left": "1 day left",
+    "prize": "$0",
+    "themes": [
+      "E-commerce/Retail",
+      "Low/No Code",
+      "Social Good"
+    ],
+    "organizer": "Viking Hacks",
+    "registrations": 11,
+    "invite_only": false,
+    "score": 3,
+    "reason": "No AI, no prize"
   },
   {
     "title": "Pumpkin Playground",
@@ -814,7 +911,7 @@
     "location": "Online",
     "online": true,
     "deadline": "Oct 12 - Nov 06, 2026",
-    "time_left": "3 days left",
+    "time_left": "2 days left",
     "prize": "$50",
     "themes": [
       "Design",
@@ -822,10 +919,10 @@
       "Web"
     ],
     "organizer": "ACM Long Beach",
-    "registrations": 209,
+    "registrations": 214,
     "invite_only": false,
     "score": 2,
-    "reason": "No AI, low prize"
+    "reason": "Design & gaming, no AI"
   },
   {
     "title": "2026-2027 Fall ESE Senior Design",
@@ -844,44 +941,6 @@
     "registrations": 109,
     "invite_only": false,
     "score": 2,
-    "reason": "AR/VR, not AI/ML"
-  },
-  {
-    "title": "Girls Who Code HHS Hackathon 2026",
-    "link": "https://gwchhs-hackathon-2026.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Oct 15 - Nov 05, 2026",
-    "time_left": "2 days left",
-    "prize": "$50",
-    "themes": [
-      "Beginner Friendly",
-      "Gaming",
-      "Social Good"
-    ],
-    "organizer": "Girls Who Code HHS",
-    "registrations": 95,
-    "invite_only": false,
-    "score": 2,
-    "reason": "Gaming, no AI/ML"
-  },
-  {
-    "title": "305 Veterans Hackathon Edition November 2026 \u2014 305Hackathons.vercel.app",
-    "link": "https://305veteransnov2026.devpost.com/",
-    "location": "Online",
-    "online": true,
-    "deadline": "Nov 01 - 30, 2026",
-    "time_left": "28 days left",
-    "prize": "$0",
-    "themes": [
-      "Beginner Friendly",
-      "Cybersecurity",
-      "Education"
-    ],
-    "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
-    "registrations": 12,
-    "invite_only": false,
-    "score": 2,
-    "reason": "Cybersecurity, no AI/ML"
+    "reason": "No AI, advanced topics"
   }
 ]
